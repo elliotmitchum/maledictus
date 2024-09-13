@@ -47,3 +47,15 @@ img {
   display: block;
   margin: 48px auto;
 }
+
+::-moz-selection {
+  background: #cccdbf;
+  text-shadow: none;
+  color: #181819;
+}
+
+::selection {
+  background: #cccdbf;
+  text-shadow: none;
+  color: #181819;
+}
